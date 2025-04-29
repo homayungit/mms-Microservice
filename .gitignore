@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/mms-microservices
+/obj
+/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0
+/src/BuildingBlocks/BuildingBlocks/obj
+/src/BuildingBlocks/BuildingBlocks.Messaging/bin/Debug/net10.0
+/src/BuildingBlocks/BuildingBlocks.Messaging/obj
+/src/Services/Configurations/Configure.API/bin/Debug/net10.0
+/src/Services/Configurations/Configure.API/obj
+/src/YarpApiGateway/bin/Debug/net10.0
+/src/YarpApiGateway/obj
