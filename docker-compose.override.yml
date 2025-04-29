@@ -1,0 +1,12 @@
+services:
+  configuredb:
+    container_name: configuredb
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ConfigureDB
+    restart: always
+    ports:
+        - "5435:5432"
+    volumes:
+      - postgres_configure:/var/lib/postgresql/data/ 

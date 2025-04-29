@@ -1,0 +1,8 @@
+
+services:
+  configuredb:
+    image: postgres
+
+volumes:
+  postgres_configure:
+
